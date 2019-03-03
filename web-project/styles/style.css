@@ -1,0 +1,114 @@
+*{
+    margin: 7px;
+    padding: 7px;
+    background color:blueviolet;  
+ }
+ header{
+     background-image: url(../h.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+
+ }
+ .main{
+     max-width: 1200px;
+     margin: auto;
+ }
+ .title{
+     position: absolute;
+     top:40%;
+     left:20%;
+     transform: translate(-50%,-50%);
+     color:red;
+ }
+ ul{
+     float: left;
+     list-style-type:none;
+     margin-top: 25px;    
+ }
+ ul li{
+     display: inline-block;
+     background-color: blue;
+ }
+ 
+ ul li a{
+     text-decoration: none;
+     color:white;
+     text-size-adjust: 10px;
+     padding: 5px 25px;
+     border: 1px solid white;
+     background-color: blue;
+ }
+ ul li a:hover{
+     background-color:white;
+     color:black;
+
+ }
+
+ education tr td{
+     float:left;
+
+ }
+ table{
+     background-color:purple;
+     color:white;
+ }
+ #Activities{
+     background-color: hsl(140, 76%, 53%);
+ }
+ #skills{
+    background-color:  hsl(140, 76%, 53%);
+ }
+ #education{
+     background-color:hsl(140, 76%, 53%);
+ }
+ #contact{
+     background-color: hsl(140, 76%, 53%);
+ }
+ #Gallery{
+    background-color: hsl(140, 76%, 53%);
+}
+#home{
+    margin 0;
+    padding:20px 0;
+    color:red;
+    text-shadow:3px 3px 1px black;
+}
+.head{
+    color:blue;
+}
+.ab{
+    color:black;
+}
+.ab1{
+    color:green;
+    text-align: justify;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 3em;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+input,textarea{
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+button {
+    margin: 20px 0 0 100px;
+    color:blue;
+}
